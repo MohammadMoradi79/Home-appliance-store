@@ -3,7 +3,7 @@ from django.db import models
 
 class Category(models.Model):
     title = models.CharField(max_length=255)
-    category = models.ForeignKey('self', null=True, on_delete=models.CASCADE)
+    parent = models.ForeignKey('self', null=True, on_delete=models.CASCADE)
 
 
 class Product(models.Model):
