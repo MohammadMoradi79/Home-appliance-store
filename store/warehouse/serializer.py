@@ -1,13 +1,12 @@
 from rest_framework import serializers
 from .models import Category
 
-class ProductSerializer(serializers.Serializer):
-    category = serializers.PrimaryKeyRelatedField(
-        queryset=Category.objects.all()
-    )
-    category_title = serializers.StringRelatedField(source='category')
-    title = serializers.CharField(max_length=255)
-    price = serializers.DecimalField(max_digits=6, decimal_places=2, source='unit_price')
 
+class CategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Category
+        fields = ['title', 'children']
 
-
+    def to_representation(self, category):
+        self.fields['children'] = CategorySerializer(many=True, read_only=True)
+        return super(CategorySerializer, self).to_representation(category)

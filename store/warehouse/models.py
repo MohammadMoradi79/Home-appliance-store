@@ -3,7 +3,7 @@ from django.db import models
 
 class Category(models.Model):
     title = models.CharField(max_length=255)
-    parent = models.ForeignKey('self', null=True, on_delete=models.CASCADE)
+    parent = models.ForeignKey('self', null=True, on_delete=models.CASCADE, related_name='children')
 
     def __str__(self):
         return self.title
