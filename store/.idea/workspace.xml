@@ -5,6 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +118,8 @@
       <workItem from="1687754784248" duration="227000" />
       <workItem from="1687755151683" duration="6256000" />
       <workItem from="1688192407778" duration="3452000" />
+      <workItem from="1688271226733" duration="8329000" />
+      <workItem from="1688309613187" duration="1320000" />
     </task>
     <servers />
   </component>

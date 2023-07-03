@@ -1,15 +1,13 @@
-from django.shortcuts import render
-from django.db.models import Max, F, Func
-from warehouse.models import Product, Category
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework import status
+from .models import Product, Category
+from .serializer import ProductSerializer
 
 
-def hello_world(request):
-    # product = Product()
-    # product.category = Category(pk=2)
-    # product.title = 'Washing Machin'
-    # product.unit_price = 10
-    # product.save()
+@api_view()
+def product_list(request):
+    product = Product.objects.select_related('category').all()
+    serializer = ProductSerializer(product, many=True)
+    return Response(serializer.data)
 
-    query_set = Product.objects.filter(id__range=(90, 102))
-
-    return render(request, 'hello.html', {'name': 'Mohammad', 'result': list(query_set)})
