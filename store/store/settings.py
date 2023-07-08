@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'warehouse',
     'rest_framework',
     'debug_toolbar',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
