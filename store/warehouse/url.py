@@ -4,7 +4,7 @@ from . import views
 
 router = SimpleRouter()
 router.register('category', views.CategoryViewSet, basename='category')
-
+router.register('product', views.ProductViewSet, basename='product')
 urlpatterns = [
     path('', include(router.urls))
 ]
