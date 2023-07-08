@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4023d8ec-20ef-4d86-b1c6-2d7c01c0b918" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/warehouse/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <workItem from="1688309613187" duration="1320000" />
       <workItem from="1688374630447" duration="5458000" />
       <workItem from="1688798267956" duration="1339000" />
-      <workItem from="1688819805067" duration="7419000" />
+      <workItem from="1688819805067" duration="7846000" />
     </task>
     <servers />
   </component>
