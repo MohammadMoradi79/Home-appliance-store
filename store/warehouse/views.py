@@ -7,10 +7,18 @@ from .serializer import CategorySerializer, ProductSerializer
 
 
 class CategoryViewSet(ModelViewSet):
-    def get_queryset(self):
-        queryset = Category.objects.filter(parent__isnull=True)
+    def get_queryset(self, parent=False):
+        queryset = Category.objects.all()
+        if parent:
+            queryset = Category.objects.filter(parent__isnull=parent)
         return queryset
+
     serializer_class = CategorySerializer
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset(parent=True)
+        serializer = CategorySerializer(queryset, many=True)
+        return Response(serializer.data)
 
 
 class ProductViewSet(ModelViewSet):
