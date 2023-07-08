@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4023d8ec-20ef-4d86-b1c6-2d7c01c0b918" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/warehouse/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse/serializer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

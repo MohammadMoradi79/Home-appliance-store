@@ -21,3 +21,6 @@ class Customer(models.Model):
     last_name = models.CharField(max_length=255)
     email = models.EmailField(unique=True)
 
+    class Meta:
+        ordering = ['first_name', 'last_name']
+

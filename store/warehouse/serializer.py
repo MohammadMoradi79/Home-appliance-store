@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Category, Product
+from .models import Category, Product, Customer
 
 
 class CategorySerializer(serializers.ModelSerializer):
@@ -14,7 +14,13 @@ class CategorySerializer(serializers.ModelSerializer):
 
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
-        model : Product
+        model = Product
         fields = ['category', 'title', 'price']
 
     price = serializers.DecimalField(max_digits=6, decimal_places=2, source='unit_price')
+
+
+class CustomerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Customer
+        fields = ['first_name', 'last_name', 'email']
