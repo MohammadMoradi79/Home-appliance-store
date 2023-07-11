@@ -4,6 +4,8 @@
     <list default="true" id="4023d8ec-20ef-4d86-b1c6-2d7c01c0b918" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usercore/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/usercore/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usercore/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/usercore/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +122,7 @@
       <workItem from="1688837246839" duration="595000" />
       <workItem from="1688878713302" duration="26000" />
       <workItem from="1688966012674" duration="1189000" />
-      <workItem from="1689049948576" duration="1607000" />
+      <workItem from="1689049948576" duration="3385000" />
     </task>
     <servers />
   </component>
