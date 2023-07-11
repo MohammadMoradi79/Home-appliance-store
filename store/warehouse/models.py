@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.conf import settings
 
 class Category(models.Model):
     title = models.CharField(max_length=255)
@@ -17,12 +17,10 @@ class Product(models.Model):
 
 
 class Customer(models.Model):
-    first_name = models.CharField(max_length=255)
-    last_name = models.CharField(max_length=255)
-    email = models.EmailField(unique=True)
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
     class Meta:
-        ordering = ['first_name', 'last_name']
+        ordering = ['user__first_name', 'user__last_name']
 
 
 class Comment(models.Model):
