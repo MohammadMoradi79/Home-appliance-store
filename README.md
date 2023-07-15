@@ -1,5 +1,5 @@
 # Home appliance store
- This is a simple website back-end project that written with django.
+ This is a simple website back-end project that has been built using Django.
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MohammadMoradi79/Home-appliance-store/issues)
 
