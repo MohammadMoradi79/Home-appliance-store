@@ -16,3 +16,19 @@ git clone https://github.com/MohammadMoradi79/Home-appliance-store  # clone
 cd Home-appliance-store
 pip install -r requirements.txt  # install
 ```
+</details>
+
+
+<details>
+<summary>Inference</summary>
+
+Run below command in the terminal:
+
+```bash
+python manage.py runserver
+```
+</details>
+
+
+
+
