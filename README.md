@@ -30,5 +30,16 @@ python manage.py runserver
 </details>
 
 
+<details>
+<summary>API</summary>
+
+For see the list of APIs, you can run the below url in the brower:
+
+```url
+localhost:8000/swagger
+```
+</details>
+
+
 
 
