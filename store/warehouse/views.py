@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework.mixins import CreateModelMixin, RetrieveModelMixin, UpdateModelMixin
 from rest_framework.permissions import IsAuthenticated, AllowAny
-from permissions import IsAdminOrReadOnly
+from .permissions import IsAdminOrReadOnly
 from .models import Product, Category, Customer, Comment
 from .serializer import CategorySerializer, ProductSerializer, CustomerSerializer, CommentSerializer
 
