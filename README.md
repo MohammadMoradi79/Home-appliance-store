@@ -38,6 +38,8 @@ For see the list of APIs, you can run the below url in the browser:
 ```url
 localhost:8000/swagger
 ```
+
+![alt text](https://github.com/MohammadMoradi79/Home-appliance-store/blob/main/api_swagger_pic.jpg)
 </details>
 
 
